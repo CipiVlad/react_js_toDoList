@@ -1,38 +1,83 @@
-.App {
+section {
+  margin: 20px;
+  border: 1px solid blueviolet;
+}
+
+section div {
+  display: flex;
+  gap: 0.5em;
+  margin: 0.5em;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.img {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+
+}
+
+
+.img .imgOne {
+  background-image: url('../public/imgToDoList/photo-1567359888049-674e9aacdc28.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 6em;
+  border-radius: 20%;
+}
+
+.img .imgTwo {
+  background-image: url('../public/imgToDoList/photo-1541781774459-bb2af2f05b55.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 6em;
+  border-radius: 20%;
+
+}
+
+.img .imgThree {
+  background-image: url('../public/imgToDoList/photo-1602992708529-c9fdb12905c9.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 6em;
+  border-radius: 20%;
+
+}
+
+.img .imgFour {
+  background-image: url('../public/imgToDoList/photo-1612006323037-31d556f4a215.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 6em;
+  border-radius: 20%;
+}
+
+section h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section article {
+  background: rgb(3, 2, 57);
+  color: rgb(11, 220, 143);
+  text-align: center;
+  width: 400px;
+  border-radius: 10px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type="checkbox"] {
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid yellow;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
 }
